@@ -46,10 +46,33 @@ const user =[
 ]
 
 user[1].email
-console.log(spotifyUser);
+// console.log(spotifyUser);
 
-console.log(Object.keys(spotifyUser));
-console.log(Object.values(spotifyUser));
-console.log(Object.entries(spotifyUser));
+// console.log(Object.keys(spotifyUser));
+// console.log(Object.values(spotifyUser));
+// console.log(Object.entries(spotifyUser));
 
-console.log(spotifyUser.hasOwnProperty('isLogged'));
+// console.log(spotifyUser.hasOwnProperty('isLogged'));
+
+const course = {
+    coursename : "js in hindi",
+    price : "999",
+    instructor : "Hitesh_sir"
+}
+
+// course.instructor
+
+const {instructor: sir} = course //obj re-structure
+// console.log(instructor);
+console.log(sir);
+
+
+const navbar =() =>{
+
+}
+
+// {
+//     name : "tushr"
+//     padhai : "js"
+//     price : 'free'
+// }
