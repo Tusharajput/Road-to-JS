@@ -12,7 +12,6 @@
 //     console.log(`value is ${MyArray[arr]}`);
 //     arr = arr + 1
 // }
-
 let score = 11
 do {
     console.log(`score is : ${score}`);
